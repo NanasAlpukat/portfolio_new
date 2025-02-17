@@ -16,6 +16,10 @@ body {
     @apply w-[30px] h-[2px] my-2 block bg-dark;
 }
 
+.boxShadow{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3); /* Menambahkan shadow */
+}
+
 .hamburger-active > span:nth-child(1) {
     @apply origin-top-left rotate-45
 
